@@ -1,23 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site Under Redevelopment</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111827, #1f2937);
+      color: #f9fafb;
+      text-align: center;
+    }
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Interactive Math Tutoring Platform</title>
-      <meta name="description" content="Engage with an interactive math tutoring platform designed for learners of all levels, enhancing problem-solving skills through dynamic exercises and personalized feedback." />
-      <meta name="robots" content="noindex, nofollow" />
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
-      
-      <script type="module" crossorigin src="/assets/index-D4Q--FuG.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/index-HzeX0846.css">
-    </head>
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
 
-    <body>
-      
-      <div id="root"></div>
-      
-    </body>
-  </html>
-  
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #d1d5db;
+    }
+
+    .spinner {
+      margin: 20px auto;
+      width: 50px;
+      height: 50px;
+      border: 5px solid #374151;
+      border-top: 5px solid #3b82f6;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>We’re currently improving this site</h1>
+    <div class="spinner"></div>
+    <p>
+      This platform is undergoing redevelopment to improve performance,
+      usability, and overall experience. Please check back soon.
+    </p>
+    <footer>
+      © 2026 All rights reserved
+    </footer>
+  </div>
+</body>
+</html>
