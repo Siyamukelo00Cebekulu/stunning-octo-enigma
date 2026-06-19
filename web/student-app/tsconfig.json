@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // Other configurations...
+    "types": ["jest"]
+  },
+  // Other configurations...
+}
